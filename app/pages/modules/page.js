@@ -1,5 +1,5 @@
 var app = require("../../app");
-var modulesGraph = require("../../graphs/modules");
+//var modulesGraph = require("../../graphs/modules");
 
 function renderTable() {
 	$(".page").html(require("./modules.jade")({
@@ -22,10 +22,10 @@ module.exports = function() {
 		renderTable();
 	});
 
-	modulesGraph.show();
-	modulesGraph.setNormal();
-	return function() {
-		$(document).off('click', '.size-th');
-		modulesGraph.hide();
-	}
+	//modulesGraph.show();
+	//modulesGraph.setNormal();
+	//return function() {
+	//	$(document).off('click', '.size-th');
+	//	modulesGraph.hide();
+	//}
 };
