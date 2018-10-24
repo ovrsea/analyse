@@ -1,6 +1,4 @@
-# analyse
-
-[http://webpack.github.com/analyse](http://webpack.github.com/analyse)
+Forked version of webpack/analyse with graphs disabled in order to analyze larger bundles
 
 ## Running
 
