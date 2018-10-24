@@ -54,4 +54,4 @@ app.loadPage = loadPage;
 require.include("sigma.js");
 require.include("./percentageToColor");
 require.include("./findById");
-require.include("./graphs/modules");
+//require.include("./graphs/modules");

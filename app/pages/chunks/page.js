@@ -7,8 +7,8 @@ module.exports = function() {
 	$(".page").html(require("./chunks.jade")({
 		stats: app.stats
 	}));
-	chunksGraph.show();
+	/*chunksGraph.show();
 	return function() {
 		chunksGraph.hide();
-	}
+	}*/
 };

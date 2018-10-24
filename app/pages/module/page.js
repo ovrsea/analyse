@@ -1,5 +1,5 @@
 var app = require("../../app");
-var modulesGraph = require("../../graphs/modules");
+//var modulesGraph = require("../../graphs/modules");
 
 module.exports = function(id) {
 	id = parseInt(id, 10);
@@ -11,9 +11,9 @@ module.exports = function(id) {
 		module: m,
 		issuer: app.mapModulesUid[m.issuerUid]
 	}));
-	modulesGraph.show();
+	/*modulesGraph.show();
 	modulesGraph.setActiveModule(id);
 	return function() {
 		modulesGraph.hide();
-	}
+	}*/
 };
